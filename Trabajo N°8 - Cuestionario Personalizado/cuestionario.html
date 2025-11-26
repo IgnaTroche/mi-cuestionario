@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panteon</title>
+    <link rel="stylesheet" href="assets/css/style_cuestionario.css">
+</head>
+
+<body>
+    <header>
+        <div class="h-container">
+            <div class="titulo">
+                <h1>Panteon de los Dioses</h1>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="formulario-container">
+            <form action="form.php" method="get" >
+                <fieldset class="separadores">
+                    <legend>Bienvenido Retador</legend>
+                    <label for="nombre">Ingrese su nombre: </label>
+                    <input type="text" id="nombre">
+                </fieldset>
+        
+                <fieldset class="separadores">
+                    <legend>1 - ¿Cómo se llama la zona en la que se comienza la aventura?</legend>
+                    <label><input type="radio" name="p1" value="a"> Cruces olvidados</label>
+                    <br>
+                    <label><input type="radio" name="p1" value="b"> Bocasucia</label>
+                    <br>
+                    <label><input type="radio" name="p1" value="c"> Ciudad de Lágrimas</label>
+                    <br>
+                    <label><input type="radio" name="p1" value="d"> Ruinas del reino</label>
+                    <br>
+                    <label><input type="radio" name="p1" value="e"> Acantilados aulladores</label>
+                </fieldset>
+        
+                <fieldset class="separadores">
+                    <legend>2 - ¿Cómo se llama el arma que porta el protagonista?</legend>
+                    <label><input type="radio" name="p2" value="a"> Rapier</label>
+                    <br>
+                    <label><input type="radio" name="p2" value="b"> Azote</label>
+                    <br>
+                    <label><input type="radio" name="p2" value="c"> Aguijón</label>
+                    <br>
+                    <label><input type="radio" name="p2" value="d"> Mata dioses</label>
+                    <br>
+                    <label><input type="radio" name="p2" value="e"> Yamato</label>
+                </fieldset>
+        
+                <fieldset class="separadores">
+                    <legend>3 - ¿Cuál de estos hechizos se consiguen durante la aventura?</legend>
+                    <label>
+                        <input type="radio" name="p3" value="a"> Tajo Umbrío, Lanza Espectral y Espíritu Infernal
+                    </label>
+                        <br>
+                    <label>
+                        <input type="radio" name="p3" value="b"> Clon Sombrío, Cadenas Oscuras y Marca Vengativa
+                    </label>
+                        <br>
+                    <label>
+                        <input type="radio" name="p3" value="c"> Muerte Desoladora, Látigo Esquelético y Prisión del Abismo
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="p3" value="d"> Espíritu Vengativo, Salto Desolador y Espectros Aulladores
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="p3" value="e"> Lluvia de Alma, Soldados Carmesí y Manto Espectral
+                    </label>
+                </fieldset>
+        
+                <fieldset class="separadores">
+                    <legend>4 - ¿Cuantas criaturas se pueden registrar en el diario del cazador durante todo el juego?</legend>
+                    <label><input type="radio" name="p4" value="a"> 144</label>
+                    <br>
+                    <label><input type="radio" name="p4" value="b"> 156</label>
+                    <br>
+                    <label><input type="radio" name="p4" value="c"> 168</label>
+                    <br>
+                    <label><input type="radio" name="p4" value="d"> 137</label>
+                    <br>
+                    <label><input type="radio" name="p4" value="e"> 164</label>
+                    <!-- Aca varia la respuesta pq en total hay 168 criaturas, pero solo cuentan 164 y se necesitan 144 para completarlo-->
+        
+                </fieldset>
+        
+                <fieldset class="separadores">
+                    <legend>5 - ¿Cuantas veces se puede mejorar el arma?</legend>
+                    <label><input type="radio" name="p5" value="a"> 3 Veces</label>
+                    <br>
+                    <label><input type="radio" name="p5" value="b"> 5 Veces</label>
+                    <br>
+                    <label><input type="radio" name="p5" value="c"> 4 Veces</label>
+                    <br>
+                    <label><input type="radio" name="p5" value="d"> 1 Sola vez</label>
+                    <br>
+                    <label><input type="radio" name="p5" value="e"> 2 Veces</label>
+                </fieldset>
+        
+                <fieldset class="separadores">
+                    <legend>6 - ¿Cuantos jefes hay en todo el juego?</legend>
+                    <label><input type="radio" name="p6" value="a"> 51 Jefes</label>
+                    <br>
+                    <label><input type="radio" name="p6" value="b"> 47 jefes</label>
+                    <br>
+                    <label><input type="radio" name="p6" value="c"> 34 Jefes</label>
+                    <br>
+                    <label><input type="radio" name="p6" value="d"> 28 Jefes</label>
+                    <br>
+                    <label><input type="radio" name="p6" value="e"> 12 Jefes</label>
+                    <!-- Contanto todas las variantes y dlcs hay 47, pero solo 12 son parte de la historia principal -->
+                </fieldset>
+        
+                <fieldset class="separadores">
+                    <legend>7 - ¿Cuanta esencia se necesita recolectar para cumplir todos los objetivos de la Vidente?</legend>
+                    <label><input type="radio" name="p7" value="a"> 2400 de Escencia</label>
+                    <br>
+                    <label><input type="radio" name="p7" value="b"> 1700 de Escencia</label>
+                    <br>
+                    <label><input type="radio" name="p7" value="c"> 3000 de Escencia</label>
+                    <br>
+                    <label><input type="radio" name="p7" value="d"> 1900 de Escencia</label>
+                    <br>
+                    <label><input type="radio" name="p7" value="e"> 1800 de Escencia</label>
+        
+                </fieldset>
+        
+                <fieldset class="separadores">
+                    <legend>8 - ¿Cuantas habilidades secundarias se pueden conseguir en total?</legend>
+                    <label><input type="radio" name="p8" value="a"> 5</label>
+                    <br>
+                    <label><input type="radio" name="p8" value="b"> 3</label>
+                    <br>
+                    <label><input type="radio" name="p8" value="c"> 4</label>
+                    <br>
+                    <label><input type="radio" name="p8" value="d"> 9</label>
+                    <br>
+                    <label><input type="radio" name="p8" value="e"> 7</label>
+                    <!-- Depende de como se cuente, tecnicamente son 10 incluyendo el poder ver el progreso de
+                     finalización, pero no cambia nada en el gameplay, y contando la variante despertada del 
+                     aguijon onirico, queda con 9 habilidades secundarias. (aca no contamos las mejoras de los hechizos) -->
+                </fieldset>
+        
+                <fieldset class="separadores">
+                    <legend>9 - ¿Cuantas zonas en total hay en el mapa?</legend>
+                    <label><input type="radio" name="p9" value="a"> 17</label>
+                    <br>
+                    <label><input type="radio" name="p9" value="b"> 15</label>
+                    <br>
+                    <label><input type="radio" name="p9" value="c"> 19</label>
+                    <br>
+                    <label><input type="radio" name="p9" value="d"> 22</label>
+                    <br>
+                    <label><input type="radio" name="p9" value="e"> 16</label>
+                    <!-- La respuesta suele variar entre 15 y 17 segun como se cuenten las zonas secundarias, pero por separació
+                      yo tomo como valido la cantidad de 16-->
+                </fieldset>
+        
+                <fieldset class="separadores">
+                    <legend>10 - ¿Cuantos finales hay en todo el juego?</legend>
+                    <label><input type="radio" name="p10" value="a"> 8</label>
+                    <br>
+                    <label><input type="radio" name="p10" value="b"> 3</label>
+                    <br>
+                    <label><input type="radio" name="p10" value="c"> 5</label>
+                    <br>
+                    <label><input type="radio" name="p10" value="d"> 2</label>
+                    <br>
+                    <label><input type="radio" name="p10" value="e"> 1</label>
+                </fieldset>        
+            </form>
+            <a href="resultados.html">
+                <button class="btn-enviar" type="button" id="enviar">Enviar ⸸</button>
+            </a>
+                    
+        </div>
+    </main>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

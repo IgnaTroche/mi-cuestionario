@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Traja;
+    src: url(../fuentes/TrajanPro-Bold.otf);
+}
+
+.Traja{
+    font-family: Traja;
+}
